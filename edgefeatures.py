@@ -34,3 +34,5 @@ features = np.reshape(image, (660*450))
 
 features.shape, features
 
+image = imread('image_8_original.png', as_gray=True)
+imshow(image)
